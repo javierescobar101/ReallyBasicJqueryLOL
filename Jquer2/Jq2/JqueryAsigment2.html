@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>JqueryAsig2</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="JQ2styles.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('img').click(function(){
+		 $(this).hide();
+
+		});
+		var img = 'mario.jpeg';
+		$('#button').click(function(){
+			$('img').show();
+
+		});
+		
+	});
+	</script>
+<body>
+<div "#blocks">
+
+	<div id='block1'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block2'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block3'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block4'><img  src="mario.jpeg" alt='mario'></div>
+	<br>
+	<div id='block5'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block6'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block7'><img  src="mario.jpeg" alt='mario'></div>
+	<div id='block8'><img  src="mario.jpeg" alt='mario'></div>
+
+	</div>
+<div id="button">
+			<button id="button" style="background-color:#FFD700 ">show mario</button>
+			</div>
+</body>
+</html>

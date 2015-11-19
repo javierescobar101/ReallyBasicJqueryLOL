@@ -1,0 +1,161 @@
+<html>
+<head>
+	<title>MY JQUERY</title>
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#redish').click(function(){
+			$('#redparagraph').css('color','red');
+			})
+		$('#next').click(function(){
+			$('#hello').after("<p>Hello world!</p>");
+			})
+		$('#apx').click(function(){
+			$('#apenx').append("<p>this paragrahp has been added</p>");
+			});
+
+		$("#powerup").click(function(){
+   			 $("img").attr("width","200");
+			});
+		$('#b4').click(function(){
+			$('#behindu').before("<p>Right behind u baby</p>")
+			});
+		$('#h_tml').click(function(){
+			$('#hi5').html("hey now i'm hi5!!!!");
+			$('#hi5').css( 'color','red')
+			});
+	});
+	</script>
+
+
+</head>
+<body>
+	<div class="allboxes">
+		<h3> .Addclass </h3>
+			<div id="redish">
+			<button type="button" style="background-color:#FFD700 ">AddClass</button>
+			</div>
+			<p id='redparagraph'>Click the button to add class 'red' to this paragraph</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .after </h3>
+			<div id="next">
+			<button type="button" style="background-color:#FFD700 ">after</button>
+			</div>
+			<p id='hello'>Click the button to Insert content, specified by the parameter, after each element in the set of matched elements.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .append </h3>
+			<div id="apx">
+			<button type="button" style="background-color:#FFD700 ">append</button>
+			</div>
+			<p id='apenx'>Click the button to append a new paragraph</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .attr </h3>
+			<div class="button">
+			<button id="powerup" style="background-color:#FFD700 ">attr</button>
+			</div>
+			<img src="mario.jpeg" alt='mario'>
+			<p>Click the button to Insert content, specified by the parameter, before each element in the set of matched elements.  <span style="color:red;font-size:20pt">Check out how mario power up!!!"</span></p>
+			
+			<hr>
+	<div class="allboxes">
+		<h3> .before </h3>
+			<div class="button">
+			<button id="b4" style="background-color:#FFD700 ">before</button>
+			</div>
+			<p id='behindu'>Click the button to Insert content, specified by the parameter, before each element in the set of matched elements.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .html </h3>
+			<div class="button">
+			<button id="h_tml" style="background-color:#FFD700 ">html</button>
+			</div>
+			<h5 id='hi5'>Click the button to Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</h5>
+			<hr>
+	<div class="allboxes">
+		<h3> .text </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">text</button>
+			</div>
+			<p>Click the button Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements./p>
+			<hr>
+	<div class="allboxes">
+		<h3> .val </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">val</button>
+			</div>
+			<p>Click the button to Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>
+			<hr>
+	<div class="allboxes">
+			<h3> .toggle </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">toogle
+			</button>
+			</div>
+			<p>Click the button to Display or hide the matched elements.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .hide </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">hide</button>
+			</div>
+			<p>Click the button to add class 'red' to this paragraph</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .show </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">show</button>
+			</div>
+			<p>Click the button to Hide the matched elements.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .slideDown </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">SlideDown</button>
+			</div>
+			<p>Click the button to Display the matched elements with a sliding motion.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .slideToggle </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">slideToggle</button>
+			</div>
+			<p>Click the button to slidetoggle a hidden image</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .slideUp </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">slideUp</button>
+			</div>
+			<p>Click the button to Hide the matched elements with a sliding motion.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .fadeOut </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">fadeOut</button>
+			</div>
+			<p>Click the button to Hide the matched elements by fading them to transparent.</p>
+			<hr>
+	<div class="allboxes">
+		<h3> .fadeIn </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">fadeIn</button>
+			</div>
+			<p>Click the button to Display the matched elements by fading them to opaque. </p>
+			<hr>
+	<div class="allboxes">
+		<h3> .focus </h3>
+			<div class="button">
+			<button type="button" style="background-color:#FFD700 ">AddClass</button>
+			</div>
+			<p>Click the button to Bind an event handler to the “focus” JavaScript event, or trigger that event on an element</p>
+			<hr>
+	
+
+	</div>
+	<br>
+
+</body>
+</html>
