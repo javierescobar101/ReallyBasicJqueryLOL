@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>JQ3</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="JQ3.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('img').click(function(){
+		  
+		 var pic1= $(this).attr('src');
+		 var pic2= $(this).attr('data-alt-src');
+
+		 $(this).attr('src',pic2);
+		 $(this).attr('data-alt-src',pic1);
+		});
+		
+		
+
+	});
+	</script>
+<body>
+	<div "#blocks">
+
+	<div id='img1'><img  src='cat0.png' data-alt-src='ninja0.png'></div>
+	<br>
+	<div id='img2'><img  src='cat1.png'data-alt-src='ninja1.png' ></div>
+	<br>
+	<div id='img3'><img  src='cat2.png'data-alt-src='ninja2.png'></div>
+	<br>
+	<div id='img4'><img  src='cat3.png'data-alt-src='ninja3.png' ></div>
+	<br>
+	<div id='img5'><img  src='cat4.png'data-alt-src='ninja4.png' ></div>
+	<br>
+	</div>
+
+</body>
+</html>
